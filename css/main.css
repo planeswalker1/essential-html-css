@@ -1,5 +1,91 @@
-/* 
-your CSS rules and font imports should go here 
-delete this comment, add the import directives for your fonts
-and add the CSS rules as described in the challenge
-*/
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:300);
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300italic);
+
+body {
+  font-family: 'Lato', 'Helvetica Neue', 'Helvetica', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  background-attachment: fixed;
+  background-image: url(../img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+a {
+  color: #0000AA;
+  text-decoration: none;
+}
+
+a:hover, input:focus {
+  background-color: #0000EE;
+}
+
+h1, h2, h3 {
+  font-family: 'Raleway', 'Helvetica Neue', 'Helvetica', sans-serif;
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 300%;
+  margin: 0, auto;
+}
+
+h2, h3 {
+  color: #505050;
+}
+
+h2 {
+  font-size: 150%;
+}
+
+h3 {
+  font-size: 125%;
+}
+
+main {
+  background-image: url(../img/ricepaper_v3.png);
+  margin: 20px 20px 20px 30%;
+  opacity: .9;
+}
+
+header {
+  background-color: #FA5A0F;
+  border-bottom: 5px solid #EA4A00;
+  color: #FFFFFF;
+  padding: 1em;
+}
+header p {
+  color: #eeeeee;
+  font-size: 120%;
+  margin: 0 auto;
+}
+
+section.restaurantInfo {
+  padding: 1em;
+}
+section.menu {
+  background-color: rgba(207, 205, 140, 0.5);
+  padding: 1em;
+}
+dt {
+  font-weight: 400;
+}
+
+dd {
+  font-style: italic;
+  font-size: 80%;
+  margin: 0 0 1em 1em;
+}
+
+section.aboutUs {
+  padding: 1em;
+}
+
+footer {
+  background-color: #FC892F;
+  border-top: 5px solid #EC791F;
+  font-size: 80%;
+  padding: 1em;
+  text-align: right;
+}
